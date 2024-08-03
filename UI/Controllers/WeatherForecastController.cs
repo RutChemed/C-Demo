@@ -29,5 +29,10 @@ namespace UI.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        public string GitChange1()
+        {
+            return "added http method";
+        }
     }
 }
