@@ -21,6 +21,16 @@ namespace UI.Controllers
         {
             return "value";
         }
+        [HttpPost]
+        public void Post([FromBody] string value) { 
+        return;
+        }
+
+        [HttpPut]
+        public void Put(int id, [FromBody] string value)
+        {
+                return;
+        }
 
     }
 }
