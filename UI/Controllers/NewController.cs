@@ -26,12 +26,6 @@ namespace UI.Controllers
         return;
         }
 
-        [HttpPut]
-        public void Put(int id, [FromBody] string value)
-        {
-                return;
-        }
-
         [HttpDelete]
         public void Delete(int id) {
             return; 
