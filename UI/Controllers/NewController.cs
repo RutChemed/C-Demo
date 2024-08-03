@@ -32,5 +32,10 @@ namespace UI.Controllers
                 return;
         }
 
+        [HttpDelete]
+        public void Delete(int id) {
+            return; 
+        }  
+
     }
 }
