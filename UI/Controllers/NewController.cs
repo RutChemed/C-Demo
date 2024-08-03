@@ -22,13 +22,9 @@ namespace UI.Controllers
             return "value";
         }
         [HttpPost]
-        public void Post([FromBody] string value) { 
-        return;
-        }
-
-        [HttpDelete]
-        public void Delete(int id) {
-            return; 
+        public void Post([FromBody] string value)
+        {
+            return;
         }  
 
     }
